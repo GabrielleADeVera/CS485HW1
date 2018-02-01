@@ -164,6 +164,11 @@ Prefab:
       propertyPath: m_Name
       value: Pick Up (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 23015801858229482, guid: 23cad2c71686c40d49faff70dc100c45,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 23cad2c71686c40d49faff70dc100c45, type: 2}
   m_IsPrefabParent: 0
@@ -301,6 +306,11 @@ Prefab:
     - target: {fileID: 1435206487993694, guid: 23cad2c71686c40d49faff70dc100c45, type: 2}
       propertyPath: m_Name
       value: Pick Up (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 23015801858229482, guid: 23cad2c71686c40d49faff70dc100c45,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 23cad2c71686c40d49faff70dc100c45, type: 2}
@@ -533,6 +543,11 @@ Prefab:
       propertyPath: m_Name
       value: Pick Up (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 23015801858229482, guid: 23cad2c71686c40d49faff70dc100c45,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 23cad2c71686c40d49faff70dc100c45, type: 2}
   m_IsPrefabParent: 0
@@ -580,13 +595,15 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4303982585570152, guid: 23cad2c71686c40d49faff70dc100c45, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 0.50000006
+    - target: {fileID: 54083344204109432, guid: 23cad2c71686c40d49faff70dc100c45,
+        type: 2}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 4303982585570152, guid: 23cad2c71686c40d49faff70dc100c45, type: 2}
-      propertyPath: m_LocalScale.z
-      value: 0.50000024
+    - target: {fileID: 54083344204109432, guid: 23cad2c71686c40d49faff70dc100c45,
+        type: 2}
+      propertyPath: m_UseGravity
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 23cad2c71686c40d49faff70dc100c45, type: 2}
@@ -775,6 +792,11 @@ Prefab:
       propertyPath: m_Name
       value: Pick Up (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 23015801858229482, guid: 23cad2c71686c40d49faff70dc100c45,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 23cad2c71686c40d49faff70dc100c45, type: 2}
   m_IsPrefabParent: 0
@@ -802,7 +824,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!23 &1604080420
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -880,7 +902,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6270533f745424cb98042011cabad213, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 100
+  speed: 15
 --- !u!54 &1604080425
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1199,14 +1221,6 @@ Prefab:
     - target: {fileID: 4303982585570152, guid: 23cad2c71686c40d49faff70dc100c45, type: 2}
       propertyPath: m_RootOrder
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4303982585570152, guid: 23cad2c71686c40d49faff70dc100c45, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 0.50000006
-      objectReference: {fileID: 0}
-    - target: {fileID: 4303982585570152, guid: 23cad2c71686c40d49faff70dc100c45, type: 2}
-      propertyPath: m_LocalScale.z
-      value: 0.50000024
       objectReference: {fileID: 0}
     - target: {fileID: 1435206487993694, guid: 23cad2c71686c40d49faff70dc100c45, type: 2}
       propertyPath: m_Name
