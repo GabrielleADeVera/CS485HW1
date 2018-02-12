@@ -1,0 +1,19 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Spin : MonoBehaviour {
+
+
+		void OnTriggerEnter(Collider other) {
+		if (other.gameObject.CompareTag ("Player")) {
+			transform.Rotate (new Vector3 (15, 30, 45) * Time.deltaTime);
+		}
+	}
+
+	void Update ()
+	{
+	
+	
+	}
+}
